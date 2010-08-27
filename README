@@ -13,3 +13,5 @@ In order to try the examples you have to create a directory "www" in same place 
 Then you can call from the browser, localhost:7734/haskell.wiki
 
 There are some examples that comes with the package, in the "www" directory.
+
+Note: This package is a modification of the laboratory's version of Applied Functional Programming summer school of Utrecht. This package is using parser combinators.
