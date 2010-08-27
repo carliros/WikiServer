@@ -1,0 +1,34 @@
+{{http://www.cs.uu.nl/icons/li-dsol.png | logo}}
+
+---
+
+= Web Home
+
+---
+
+//USCS2010//
+
+== USCS 2010: Applied Functional Programming
+
+==== August 16-27, 2010
+
+This is the Wiki site for USCS 2010, a two-week summer school on "Applied Functional Programming" taking place at Utrecht University. If you are a participant of this school, check this Wiki regularly for the latest information about the summer school activities. If you are interested in participating in this school next year, you can browse this site to get an idea how the school is like and what topics are covered.
+
+** Navigate by following the links on the left. **
+
+=== Communication channels
+
+Next to the Wiki, we make use of an IRC channel and a mailing list.
+
+=== IRC channel
+
+An IRC (chat) channel with the name ** //uscs2010// ** has been created on //freenode.net.// The channel is currently open, so if you have an IRC-capable client, just get on freenode.net and join the channel. There is also a web-based client available. Participation on the channel is strongly encouraged, but optional.
+
+=== Mailing list
+
+The address of the mailing list is {{{ uscs2010-discuss@cs.uu.nl }}} You should have received a welcome message stating that you are subscribed to the list. All the participants and organizers can (and should) read these mails.
+
+=== Contact to the organizers
+
+There's a mailing list for the organizers at {{{ uscs2010@cs.uu.nl }}} If you have questions about the organization that are not intended for or uninteresting for the other participants, you can reach the organizers there. Of course, you can also contact the organizers privately on IRC or by sending a mail directly to their addresses.
+

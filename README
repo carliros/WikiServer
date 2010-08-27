@@ -1,2 +1,15 @@
 
-Prueba
+Wiki Server with haskell.
+
+To Compile:
+    runhaskell Setup.hs configure
+    runhaskell Setup.hs build
+    runhaskell Setup.hs install
+
+Then you can execute with:  wikiserver
+and then write in your browser localhost:7734/
+
+In order to try the examples you have to create a directory "www" in same place where the wikiserver (executable) is. And put the files .wiki there.
+Then you can call from the browser, localhost:7734/haskell.wiki
+
+There are some examples that comes with the package, in the "www" directory.

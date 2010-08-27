@@ -1,0 +1,4 @@
+== Aloha Wiki Users!
+
+Welcome to //WikiCreole!// **Creole 1.0 is live**. There is still being work done on [[http://www.wikicreole.org/wiki/CreoleAdditions|Additions]]. See our [[http://www.wikicreole.org/wiki/WikiCreolePressRelease|press release]] for more details. If you are a first-time visitor, please check out [[http://www.wikicreole.org/wiki/HowToUseThisWiki|how to use this wiki]]. To read the latest info on Creole, please visit our [[http://www.wikicreole.org/wiki/News|News]] blog. If you would like to suggest something and don't know where to put it, use the [[http://www.wikicreole.org/wiki/Talk|Talk]] page.
+

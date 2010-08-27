@@ -1,0 +1,12 @@
+
+== The Colors
+
+* Red
+* White
+* Black
+* Pink
+* Blue
+* Green
+
+**Note**.- //this colors are not yet completed.//
+

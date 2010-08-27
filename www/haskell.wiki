@@ -1,0 +1,31 @@
+{{ http://haskell.org/haskellwiki_logo.png | logo }}
+
+== Haskell 
+
+From Haskell Wiki - [[ http://www.cs.uu.nl/wiki/bin/view/USCS2010 | USCS 2010]]
+
+Haskell is an advanced [[http://haskell.org/haskellwiki/Functional_programming |  purely functional programming ]] language. An open source product of 
+more than twenty years of cutting edge research, it allows rapid development of robust, concise, correct software. With strong support for 
+[[http://www.cse.unsw.edu.au/~chak/haskell/ffi | integration with other languages]], built-in
+[[http://haskell.org/haskellwiki/Applications_and_libraries/Concurrency_and_parallelism | concurrency and parallelism]], debuggers, profilers, 
+rich libraries and an active community, Haskell makes it easier to produce flexible, maintainable high-quality software. 
+
+
+=== Headlines
+** [[http://blog.johantibell.com/2010/08/results-from-state-of-haskell-2010.html | The State of Haskell Report]], 2010 edition.
+** [[http://software.intel.com/en-us/blogs/2010/05/27/announcing-intel-concurrent-collections-for-haskell-01 | The Intel Concurrent Collections Library for Haskell is available]]
+** Try the new [[http://snapframework.com | Snap web framework ]] for Haskell, fast, simple, easy.
+** Over **  2000 Haskell libraries and apps ** are now available on Hackage.
+** [[http://hackage.haskell.org/platform | Download the Haskell Platform]] - the standard development environment for Haskell
+** [[http://tryhaskell.org |Try Haskell]] - an interactive, online Haskell interpreter
+** A new [[http://www.haskell.org/pipermail/cvs-ghc/2010-February/052606.html | code generator for GHC based on LLVM ]] has been developed.
+
+=== Events
+		
+* San Francisco Bay Area HUG: Monads and Monad Transformers (part 2)    San Francisco, CA,                      August 11, 2010
+* Summerschool: Applied Functional Programming 	                        Utrecht/the Netherlands 	            Aug 16-27, 2010
+* Implementation and Application of Functional Programming (IFL)   	    Alphen aan den Rijn/the Netherlands 	September 1-3, 2010
+* AngloHaskell 2010 	                                                Cambridge, UK 	                        September 10-11, 2010
+* Haskell Symposium 	                                                Baltimore/MD 	                        September 30, 2010
+* Commercial Users of Functional Programming 	                        Baltimore/MD 	                        October 1-2, 2010
+

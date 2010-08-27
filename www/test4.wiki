@@ -1,0 +1,19 @@
+* Start1
+* Start2
+* Start3
+* Start4
+
+# Carlos1
+# Carlos2
+# Carlos3
+
+**Carlos Gomez**
+
+//Wikipedia//
+
+== Aloha Wiki Users!
+
+Welcome to //WikiCreole!// **Creole 1.0 is live**. There is still being work done on [[www.wikicreole.org/wiki/CreoleAdditions|Additions]]. See our [[www.wikicreole.org/wiki/WikiCreolePressRelease|press release]] for more details. If you are a first-time visitor, please check out [[www.wikicreole.org/wiki/HowToUseThisWiki|how to use this wiki]]. To read the latest info on Creole, please visit our [[www.wikicreole.org/News/|News]] blog. If you would like to suggest something and don't know where to put it, use the [[www.wikicreole.org/wiki/Talk|Talk]] page.
+
+Bye bye.
+

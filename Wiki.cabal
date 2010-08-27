@@ -1,0 +1,21 @@
+Name:               Wiki
+Version:            1.1
+Description:        Wiki server for .wiki files
+License:            GPL
+License-file:       LICENSE
+Author:             Carlos Gomez, Antonio Mamani
+Maintainer:         carliros.g@gmail.com, antonio.mq@gmail.com
+Build-Type:         Simple
+Cabal-Version:      >=1.2
+
+Executable wikiserver
+    Hs-source-dirs:     src
+    Main-is:            Wiki.hs
+    Build-Depends:      base >= 3 && < 5,
+                        html >= 1.0.1.2,
+                        httpd-shed >= 0.4,
+                        process,
+                        network,
+                        uulib,
+                        haskell98
+

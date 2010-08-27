@@ -1,0 +1,64 @@
+
+wikicreole ::= [wikielem]
+
+wikielem ::= paragraph [inline]
+           | horizontalline
+           | listOrd   [item]
+           | listUOrd  [item]
+           | heading
+
+item ::= text [inline]
+       | listOrd  [item]
+       | listUOrd [item]
+
+inline ::= italic [inline]
+         | bold   [inline]
+         | link  linkpage [inline]::optname
+         | image linkpage [inline]::optname
+         | nomarkup str
+         | string
+         | break
+
+linkpage ::= html-link
+
+
+=========================== concrete grammar ===========================
+wikicreole ::= wikielem *           -- list of elems
+
+wikielem ::= {inline}*        -- paragraphs
+           | "---"            -- horizontal line
+           | {'*' ' ' item}+  -- list unordered
+           | {'#' ' ' item}+  -- list ordered
+           | heading
+
+heading ::= H1 {inline}*
+          | H2 {inline}*
+          | H2 {inline}*
+          | H3 {inline}*
+          | H4 {inline}*
+          | H5 {inline}*
+          | H6 {inline}*
+
+item ::= {inline}*          -- paragraph
+       | {'*' ' ' item}+    -- list unordered
+       | {'#' ' ' item}+    -- list ordered
+      
+inline ::= "//" {inline}+ "//"                  -- italic element
+         | "**" {inline}+ "**"                  -- bold element
+         | "[[" linkpage {"|" {inline}*}? "]]"  -- links
+         | "{{" linkpage {"|" {inline}*}? "}}"  -- image
+         | "{{{" string "}}}"                   -- no markup
+         | string                               -- any string without formatting
+         | "\\"                                 -- break
+
+linkpage ::= html-link      -- html link
+           | string         -- name of a file
+
+
+================== another options =====================
+wikielem ::= {inline}*      -- paragraph
+           | "---"          -- horizontal line
+           | '*' pItem      -- bullet list
+
+pItem ::= ' ' {Inline}+
+        | '*' pItem 
